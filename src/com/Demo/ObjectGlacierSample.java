@@ -13,15 +13,13 @@ import org.junit.Test;
 import java.io.File;
 
 public class ObjectGlacierSample {
-    private final static String ACCESS_KEY = "DrjUiXNcQXih3R5n";
-    private final static String SECRET_KEY = "dqcLTLYnczosouL1v7ZEC7buM8hm1b";
+    private final static String ACCESS_KEY = "hehehehe";
+    private final static String SECRET_KEY = "hehehehe";
     private final static String END_POINT = "oss-cn-north-2.unicloudsrv.com";
     static AmazonS3Client s3 = getAmazonS3Client(ACCESS_KEY, SECRET_KEY, END_POINT);
 
     static String bucketName = "javatest";
     static String objectName = "java-sdk-key";
-    static String sourceKey = "java-sdk-key";
-    static String destinationKey = "java-sdk-key1";
     static String filePath = "s3Demo/src/test.rar";
 
     public static AmazonS3Client getAmazonS3Client(String accessKey, String secretKey, String endPoint) {
